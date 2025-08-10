@@ -206,6 +206,9 @@ export default function Form() {
               <div class="mt-6 w-full space-y-6 sm:mt-8 lg:mt-0 lg:max-w-xs xl:max-w-md">
                 <div class="flow-root">
                   <div class="-my-3 divide-y divide-gray-200 dark:divide-gray-800">
+                    <div className="text-lg text-center  text-gray-500 dark:text-gray-400 p-4">
+                      Review Pemesanan
+                    </div>
                     <dl class="flex items-center justify-between gap-4 py-3">
                       <dt class="text-base font-normal text-gray-500 dark:text-gray-400">Order By</dt>
                       <dd class="text-base font-medium text-gray-900 dark:text-white">{formData.Name || "-"}</dd>
